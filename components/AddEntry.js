@@ -93,7 +93,6 @@ export default class AddEntry extends Component {
 						</View>
 					);
 				})}
-				<Text>{JSON.stringify(this.state)}</Text>
 				<SubmitBtn onPress={this.submit} />
 			</View>
 		);
